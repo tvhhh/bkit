@@ -2,4 +2,6 @@
 
 __pycache__/
 
+target/
+
 antlr-4.9-complete.jar
