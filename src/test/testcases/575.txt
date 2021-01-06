@@ -1,0 +1,15 @@
+
+        Function: canIPassThisCourse
+        Body:
+            Return True;
+        EndBody.
+        Function: main
+        Body:
+            printStrLn("Can I pass this course?");
+            If canIPassThisCourse() Then
+                print("Yes");
+            Else
+                print("Also yes");
+            EndIf.
+        EndBody.
+        

@@ -1,0 +1,19 @@
+
+        Function: foo
+        Body:
+            Var: x = 0, i = 1;
+            For (i = 1, i < 10, 1) Do
+                x = x + i;
+            EndFor.
+            For (i = 1, i < 10, 1) Do
+                x = x * i;
+            EndFor.
+            Return x;
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 0;
+            x = foo(); 
+            print(string_of_int(x));
+        EndBody.
+        

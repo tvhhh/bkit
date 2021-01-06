@@ -1,0 +1,21 @@
+
+        Function: isTriangle
+        Parameter: a, b, c
+        Body:
+            Return (a + b > c) && (a + c > b) && (b + c > a);
+        EndBody.
+        Function: isRightAngledTriangle
+        Parameter: a, b, c
+        Body:
+            Var: x = False;
+            x = x || (a * a + b * b == c * c);
+            x = x || (a * a + c * c == b * b);
+            x = x || (b * b + c * c == a * a);
+            Return x;
+        EndBody.
+        Function: main
+        Body:
+            Var: a = 3, b = 4, c = 5;
+            print(string_of_bool(isRightAngledTriangle(a, b, c)));
+        EndBody.
+        

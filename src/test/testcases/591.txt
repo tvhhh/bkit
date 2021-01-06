@@ -1,0 +1,13 @@
+
+        Function: getCubeVolume
+        Parameter: s
+        Body:
+            Return s *. s *. s;
+        EndBody.
+        Function: main
+        Body:
+            Var: s = 5.0, v = 0.0;
+            v = getCubeVolume(s);
+            print(string_of_float(v));
+        EndBody.
+        

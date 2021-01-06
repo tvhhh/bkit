@@ -1,0 +1,16 @@
+
+        Function: exp
+        Parameter: a, n
+        Body:
+            Var: x = 1;
+            While n > 0 Do
+                x = x * a;
+                n = n - 1;
+            EndWhile.
+            Return x;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_int(exp(5,3)));
+        EndBody.
+        

@@ -1,0 +1,23 @@
+
+        Function: f
+        Parameter: n
+        Body:
+            Return n * n;
+        EndBody.
+        Function: g
+        Parameter: n
+        Body:
+            Return n + n;
+        EndBody.
+        Function: compose
+        Parameter: n
+        Body:
+            Return f(g(n));
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 3;
+            x = compose(x);
+            print(string_of_int(x));
+        EndBody.
+        

@@ -1,0 +1,27 @@
+
+        Function: a
+        Parameter: n
+        Body:
+            If n < 0 Then
+                Return 0;
+            EndIf.
+            Return n;
+        EndBody.
+        Function: b
+        Parameter: n
+        Body:
+            If n > 0 Then
+                Return 0;
+            EndIf.
+            Return n;
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 10, y = True;
+            If y Then
+                print(string_of_int(a(x)));
+            Else
+                print(string_of_int(b(x)));
+            EndIf.
+        EndBody.
+        

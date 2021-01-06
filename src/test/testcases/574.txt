@@ -1,0 +1,12 @@
+
+        Function: foo
+        Body:
+            Return {True, False, True};
+        EndBody.
+        Function: main
+        Body:
+            Var: x = False, i = 1;
+            x = !bool_of_string("True") || foo()[i];
+            print(string_of_bool(x));
+        EndBody.
+        

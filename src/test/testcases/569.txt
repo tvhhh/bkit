@@ -1,0 +1,20 @@
+
+        Function: isSquare
+        Parameter: n
+        Body:
+            Var: i = 1;
+            If n == 1 Then
+                Return True;
+            EndIf.
+            For (i = 1, i <= n \ 2, 1) Do
+                If i * i == n Then
+                    Return True;
+                EndIf.
+            EndFor.
+            Return False;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_bool(isSquare(25)));
+        EndBody.
+        

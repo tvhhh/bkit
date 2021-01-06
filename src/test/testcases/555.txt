@@ -1,0 +1,18 @@
+
+        Function: foo
+        Body:
+            Var: i = 0;
+            For (i = 0, i < 10, 1) Do
+                If i == 5 Then
+                    Return i;
+                EndIf.
+            EndFor.
+            Return i;
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 0;
+            x = foo();
+            print(string_of_int(x));
+        EndBody.
+        

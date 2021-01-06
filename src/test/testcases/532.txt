@@ -1,0 +1,19 @@
+
+        Function: main
+        Body:
+            Var: a[3][3] = {{1,2,3},{4,5,6},{7,8,9}}, i = 0, j = 0;
+            For (i = 0, i < 3, 1) Do
+                For (j = 0, j < i, 1) Do
+                    Var: tmp = 0;
+                    tmp = a[i][j];
+                    a[i][j] = a[j][i];
+                    a[j][i] = tmp;
+                EndFor.
+            EndFor.
+            For (i = 0, i < 3, 1) Do
+                For (j = 0, j < 3, 1) Do
+                    print(string_of_int(a[i][j]));
+                EndFor.
+            EndFor.
+        EndBody.
+        

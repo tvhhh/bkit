@@ -1,0 +1,8 @@
+
+        Function: main
+        Body:
+            Var: a[5] = {1,2,3,4,5}, x = 0;
+            x = a[a[a[a[a[0]]]]];
+            print(string_of_int(x));
+        EndBody.
+        

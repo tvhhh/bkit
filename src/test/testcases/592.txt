@@ -1,0 +1,14 @@
+
+        Function: getSphereVolume
+        Parameter: r
+        Body:
+            Var: pi = 3.14;
+            Return 4.0 \. 3.0 *. pi *. r *. r *. r;
+        EndBody.
+        Function: main
+        Body:
+            Var: r = 3.0, v = 0.0;
+            v = getSphereVolume(r);
+            print(string_of_float(v));
+        EndBody.
+        

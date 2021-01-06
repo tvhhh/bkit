@@ -1,0 +1,13 @@
+
+        Function: getAmperage
+        Parameter: u, r
+        Body:
+            Return u \. r;
+        EndBody.
+        Function: main
+        Body:
+            Var: u = 10.0, i = 0.0, r = 50.0;
+            i = getAmperage(u, r);
+            print(string_of_float(i));
+        EndBody.
+        

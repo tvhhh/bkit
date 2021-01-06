@@ -1,0 +1,11 @@
+
+        Function: foo
+        Parameter: n
+        Body:
+            print(n);
+        EndBody.
+        Function: main
+        Body:
+            foo("Hello World");
+        EndBody.
+        

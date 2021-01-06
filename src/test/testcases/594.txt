@@ -1,0 +1,14 @@
+
+        Function: getCylinderVolume
+        Parameter: r, h
+        Body:
+            Var: pi = 3.14;
+            Return pi *. r *. r *. h;
+        EndBody.
+        Function: main
+        Body:
+            Var: r = 3.0, h = 4.0, v = 0.0;
+            v = getCylinderVolume(r,h);
+            print(string_of_float(v));
+        EndBody.
+        

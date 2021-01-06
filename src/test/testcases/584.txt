@@ -1,0 +1,13 @@
+
+        Function: getDistance
+        Parameter: v, t
+        Body:
+            Return v *. t;
+        EndBody.
+        Function: main
+        Body:
+            Var: v = 30.0, t = 60.0, s = 0.0;
+            s = getDistance(v, t);
+            print(string_of_float(s));
+        EndBody.
+        

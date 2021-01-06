@@ -1,0 +1,14 @@
+
+        Var: x = 3, a[5] = {1,2,3,4,5};
+        Function: main
+        Body:
+            Var: i = 0;
+            For (i = 0, i < 5, 1) Do
+                If a[i] == x Then
+                    print("1");
+                Else
+                    print("0");
+                EndIf.
+            EndFor.
+        EndBody.
+        

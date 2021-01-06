@@ -1,0 +1,15 @@
+
+        Function: getStringMyself
+        Parameter: n
+        Body:
+            print("Getting ");
+            print(n);
+            print("\n");
+            printStrLn("Successful");
+            Return n;
+        EndBody.
+        Function: main
+        Body:
+            print(getStringMyself("Hello World"));
+        EndBody.
+        

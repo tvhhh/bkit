@@ -1,0 +1,13 @@
+
+        Function: main
+        Body:
+            Var: x = 0, y = 0, z = 0;
+            If x == 0 Then
+                If y == 0 Then
+                    If z == 0 Then
+                        print("Hello World");
+                    EndIf.
+                EndIf.
+            EndIf.
+        EndBody.
+        

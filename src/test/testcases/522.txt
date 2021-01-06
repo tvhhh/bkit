@@ -1,0 +1,20 @@
+
+        Function: inc
+        Parameter: n
+        Body:
+            Return n + 1;
+        EndBody.
+        Function: dub
+        Parameter: n
+        Body:
+            Return 2 * n;
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 3, a = 0, b = 0;
+            a = inc(dub(x));
+            b = dub(inc(x));
+            print(string_of_int(a));
+            print(string_of_int(b));
+        EndBody.
+        

@@ -1,0 +1,13 @@
+
+        Function: main
+        Body:
+            Var: a[5] = {0,1,2,3,4}, x = 0;
+            x = a[foo(a[foo(a[foo(a[foo(a[0])])])])];
+            print(string_of_int(x));
+        EndBody.
+        Function: foo
+        Parameter: x
+        Body:
+            Return x + 1;
+        EndBody.
+        

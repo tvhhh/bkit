@@ -1,0 +1,21 @@
+
+        Function: factorial
+        Parameter: n
+        Body:
+            Var: x = 1, i = 1;
+            While True Do
+                i = i + 1;
+                x = x * i;
+                If i == n Then
+                    Return x;
+                EndIf.
+            EndWhile.
+            Return x;
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 10;
+            x = factorial(x);
+            print(string_of_int(x));
+        EndBody.
+        

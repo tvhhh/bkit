@@ -1,0 +1,17 @@
+
+        Function: foo
+        Parameter: a[5]
+        Body:
+            a[0] = a[0] + 0;
+            Return a;
+        EndBody.
+        Function: main
+        Body:
+            Var: a[5] = {1,2,3,4,5}, i = 0;
+            a[0] = 6;
+            foo(a)[1] = 7;
+            For (i = 0, i < 5, 1) Do
+                print(string_of_int(a[i]));
+            EndFor.
+        EndBody.
+        

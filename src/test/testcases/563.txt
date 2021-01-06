@@ -1,0 +1,23 @@
+
+        Function: lcm
+        Parameter: x, y
+        Body:
+            Var: z = 0;
+            If x > y Then
+                z = y * 2;
+            Else
+                z = x * 2;
+            EndIf.
+            While z < x * y Do
+                If (z % x == 0) && (z % y == 0) Then
+                    Return z;
+                EndIf.
+                z = z + 1;
+            EndWhile.
+            Return x * y;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_int(lcm(4,6)));
+        EndBody.
+        

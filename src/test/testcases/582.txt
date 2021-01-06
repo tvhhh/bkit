@@ -1,0 +1,21 @@
+
+        Function: factorial
+        Parameter: n
+        Body:
+            If n == 0 Then
+                Return 1;
+            Else
+                Return n * factorial(n-1);
+            EndIf.
+        EndBody.
+        Function: arrangement
+        Parameter: n, r
+        Body:
+            Return factorial(n) \ factorial(n-r);
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 10, y = 5;
+            print(string_of_int(arrangement(x, y)));
+        EndBody.
+        

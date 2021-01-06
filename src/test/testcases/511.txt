@@ -1,0 +1,14 @@
+
+        Function: foo
+        Parameter: n
+        Body:
+            While n > 0 Do
+                n = n - 1;
+            EndWhile.
+            Return n;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_int(foo(-1)));
+        EndBody.
+        

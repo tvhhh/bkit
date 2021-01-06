@@ -1,0 +1,15 @@
+
+        Function: isTrue
+        Parameter: x
+        Body:
+            If x Then
+                Return True;
+            Else
+                Return False;
+            EndIf.
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_bool(!!isTrue(True)));
+        EndBody.
+        

@@ -1,0 +1,10 @@
+
+        Function: foo
+        Body:
+            Return {"Hello", "World", "Again"};
+        EndBody.
+        Function: main
+        Body:
+            print(foo()[0]);
+        EndBody.
+        

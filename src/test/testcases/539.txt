@@ -1,0 +1,11 @@
+
+        Function: printInt
+        Parameter: n
+        Body:
+            print(string_of_int(n));
+        EndBody.
+        Function: main
+        Body:
+            printInt(120);
+        EndBody.
+        

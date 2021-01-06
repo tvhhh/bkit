@@ -1,0 +1,22 @@
+
+        Function: foo
+        Parameter: n
+        Body:
+            Var: i = 0, j = 0;
+            For (i = 0, i < n, 1) Do
+                If i == 4 Then
+                    Continue;
+                EndIf.
+                If i % 2 == 0 Then
+                    j = j + 1;
+                EndIf.
+            EndFor.
+            Return j;
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 0;
+            x = foo(10);
+            print(string_of_int(x));
+        EndBody.
+        

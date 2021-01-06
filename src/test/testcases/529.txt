@@ -1,0 +1,13 @@
+
+        Function: main
+        Body:
+            Var: x = 0, y = 5;
+            While True Do
+                x = x + 1;
+                print(string_of_int(x));
+                If x > y Then
+                    Break;
+                EndIf.
+            EndWhile.
+        EndBody.
+        

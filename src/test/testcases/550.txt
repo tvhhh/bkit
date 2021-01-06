@@ -1,0 +1,20 @@
+
+        Var: a[10] = {2,1,2,3,4,4,3,4,3,3}, x = 3;
+        Function: count
+        Parameter: a[10], x
+        Body:
+            Var: c = 0, i = 0;
+            For (i = 0, i < 10, 1) Do
+                If a[i] == x Then
+                    c = c + 1;
+                EndIf.
+            EndFor.
+            Return c;
+        EndBody.
+        Function: main
+        Body:
+            Var: c = 4;
+            c = count(a, c);
+            print(string_of_int(c));
+        EndBody.
+        

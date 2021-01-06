@@ -1,0 +1,13 @@
+
+        Function: getVoltage
+        Parameter: i, r
+        Body:
+            Return i *. r;
+        EndBody.
+        Function: main
+        Body:
+            Var: u = 0.0, i = 0.2, r = 50.0;
+            u = getVoltage(i, r);
+            print(string_of_float(u));
+        EndBody.
+        

@@ -1,0 +1,13 @@
+
+        Function: getResistance
+        Parameter: u, i
+        Body:
+            Return u \. i;
+        EndBody.
+        Function: main
+        Body:
+            Var: u = 10.0, i = 0.2, r = 0.0;
+            r = getResistance(u, i);
+            print(string_of_float(r));
+        EndBody.
+        

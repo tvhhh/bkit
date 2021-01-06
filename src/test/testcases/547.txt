@@ -1,0 +1,17 @@
+
+        Function: swap
+        Parameter: a[2]
+        Body:
+            Var: tmp = 0;
+            tmp = a[0];
+            a[0] = a[1];
+            a[1] = tmp;
+        EndBody.
+        Function: main
+        Body:
+            Var: a[2] = {1,2};
+            swap(a);
+            print(string_of_int(a[0]));
+            print(string_of_int(a[1]));
+        EndBody.
+        

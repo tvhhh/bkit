@@ -1,0 +1,23 @@
+
+        Function: transpose
+        Parameter: a[2][3]
+        Body:
+            Var: b[3][2] = {{0,0},{0,0},{0,0}}, i = 0, j = 0;
+            For (i = 0, i < 2, 1) Do
+                For (j = 0, j < 3, 1) Do
+                    b[j][i] = a[i][j];
+                EndFor.
+            EndFor.
+            Return b;
+        EndBody.
+        Function: main
+        Body:
+            Var: a[2][3] = {{1,2,3},{4,5,6}}, b[3][2] = {{0,0},{0,0},{0,0}}, i = 0, j = 0;
+            b = transpose(a);
+            For (i = 0, i < 3, 1) Do
+                For (j = 0, j < 2, 1) Do
+                    print(string_of_int(b[i][j]));
+                EndFor.
+            EndFor.
+        EndBody.
+        

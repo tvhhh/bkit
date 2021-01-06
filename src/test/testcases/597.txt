@@ -1,0 +1,17 @@
+
+        Function: isTriangle
+        Parameter: a, b, c
+        Body:
+            Return (a + b > c) && (a + c > b) && (b + c > a);
+        EndBody.
+        Function: isIsoscelesTriangle
+        Parameter: a, b, c
+        Body:
+            Return isTriangle(a, b, c) && ((a == b) || (b == c) || (a == c));
+        EndBody.
+        Function: main
+        Body:
+            Var: a = 4, b = 4, c = 5;
+            print(string_of_bool(isIsoscelesTriangle(a, b, c)));
+        EndBody.
+        

@@ -1,0 +1,12 @@
+
+        Function: compareFloat
+        Parameter: a, b
+        Body:
+            Return !(a =/= b);
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 1.5, y = 1.5;
+            print(string_of_bool(compareFloat(x, y)));
+        EndBody.
+        

@@ -1,0 +1,16 @@
+
+        Function: foo
+        Parameter: n
+        Body:
+            print(string_of_int(n));
+            If n > 0 Then
+                print(foo(n-1));
+            EndIf.
+            Return string_of_int(n);
+        EndBody.
+        Function: main
+        Body:
+            Var: x = "";
+            x = foo(5);
+        EndBody.
+        

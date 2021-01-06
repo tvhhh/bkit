@@ -1,0 +1,19 @@
+
+        Function: foo
+        Parameter: n
+        Body:
+            If True Then
+                Var: x = 0;
+                Return x;
+            Else
+                Var: x = 1;
+                Return x;
+            EndIf.
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 0;
+            x = foo(1); 
+            print(string_of_int(x));
+        EndBody.
+        

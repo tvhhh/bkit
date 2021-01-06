@@ -1,0 +1,18 @@
+
+        Function: getEnergy
+        Parameter: m, f
+        Body:
+            Var: c = 3, res[2] = {0, 0};
+            res[0] = m * c * c;
+            res[1] = f + 8 + 8;
+            Return res;
+        EndBody.
+        Function: main
+        Body:
+            Var: e[2] = {0, 0};
+            e = getEnergy(1, -10);
+            print(string_of_int(e[0]));
+            print("e");
+            print(string_of_int(e[1]));
+        EndBody.
+        

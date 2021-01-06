@@ -1,0 +1,19 @@
+
+        Function: foo
+        Parameter: n, a[5]
+        Body:
+            Var: i = 0;
+            For (i = 0, i < 5, 1) Do
+                If a[i] == n Then
+                    Return True;
+                EndIf.
+            EndFor.
+            Return False;
+        EndBody.
+        Function: main
+        Body:
+            Var: x = False, a[5] = {1,2,3,4,5};
+            x = foo(4, a);
+            print(string_of_bool(x));
+        EndBody.
+        

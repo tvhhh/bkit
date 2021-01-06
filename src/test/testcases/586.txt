@@ -1,0 +1,13 @@
+
+        Function: getTime
+        Parameter: s, v
+        Body:
+            Return s \. v;
+        EndBody.
+        Function: main
+        Body:
+            Var: v = 30.0, t = 0.0, s = 1800.0;
+            t = getTime(s, v);
+            print(string_of_float(t));
+        EndBody.
+        

@@ -1,0 +1,13 @@
+
+        Function: getSec
+        Parameter: d, h, m
+        Body:
+            Return 60*(m+60*(h+24*d));
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 0;
+            x = getSec(1,1,1);
+            print(string_of_int(x));
+        EndBody.
+        

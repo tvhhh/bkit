@@ -1,0 +1,19 @@
+
+        Function: isPrime
+        Parameter: n
+        Body:
+            Var: x = 0;
+            x = n \ 2;
+            While x > 0 Do
+                If n % x == 0 Then
+                    Break;
+                EndIf.
+                x = x - 1;
+            EndWhile.
+            Return x == 1;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_bool(isPrime(10)));
+        EndBody.
+        

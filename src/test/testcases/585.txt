@@ -1,0 +1,13 @@
+
+        Function: getVelocity
+        Parameter: s, t
+        Body:
+            Return s \. t;
+        EndBody.
+        Function: main
+        Body:
+            Var: v = 0.0, t = 60.0, s = 1800.0;
+            v = getVelocity(s, t);
+            print(string_of_float(v));
+        EndBody.
+        

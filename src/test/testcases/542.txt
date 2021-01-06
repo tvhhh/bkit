@@ -1,0 +1,8 @@
+
+        Function: main
+        Body:
+            Var: i = 1;
+            i = i + i * i \ i;
+            print(string_of_int(i));
+        EndBody.
+        

@@ -1,0 +1,7 @@
+
+        Var: x = 10;
+        Function: main
+        Body:
+            print(string_of_int(x));
+        EndBody.
+        

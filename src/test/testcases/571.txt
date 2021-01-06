@@ -1,0 +1,7 @@
+
+        Function: main
+        Body:
+            Var: x = 3, y = 3.2;
+            print(string_of_bool(x == int_of_float(y)));
+        EndBody.
+        

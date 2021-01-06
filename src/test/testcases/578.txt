@@ -1,0 +1,11 @@
+
+        Function: getBooleanMyself
+        Parameter: n
+        Body:
+            Return n && True;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_bool(getBooleanMyself(False)));
+        EndBody.
+        

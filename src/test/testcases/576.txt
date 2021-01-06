@@ -1,0 +1,11 @@
+
+        Function: getIntMyself
+        Parameter: n
+        Body:
+            Return n + 0;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_int(getIntMyself(5)));
+        EndBody.
+        

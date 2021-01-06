@@ -1,0 +1,6 @@
+
+        Function: main
+        Body: 
+            print(string_of_int(120));
+        EndBody.
+        

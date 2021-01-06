@@ -1,0 +1,26 @@
+
+        Function: mul
+        Parameter: a[2][3], b[3][2]
+        Body:
+            Var: c[2][2] = {{0,0},{0,0}}, i = 0, j = 0, k = 0;
+            For (i = 0, i < 2, 1) Do
+                For (j = 0, j < 2, 1) Do
+                    For (k = 0, k < 3, 1) Do
+                        c[i][j] = c[i][j] + a[i][k] * b[k][j];
+                    EndFor.
+                EndFor.
+            EndFor.
+            Return c;
+        EndBody.
+        Function: main
+        Body:
+            Var: a[2][3] = {{1,1,1},{1,1,1}}, b[3][2] = {{1,1},{1,1},{1,1}}, c[2][2] = {{0,0},{0,0}};
+            Var: i = 0, j = 0;
+            c = mul(a, b);
+            For (i = 0, i < 2, 1) Do
+                For (j = 0, j < 2, 1) Do
+                    print(string_of_int(c[i][j]));
+                EndFor.
+            EndFor.
+        EndBody.
+        

@@ -1,0 +1,17 @@
+
+        Function: foo
+        Parameter: n
+        Body:
+            If n >. 2.0 Then
+                Return 2.0;
+            Else
+                Return n;
+            EndIf.
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 0.0;
+            x = foo(5.0); 
+            print(string_of_float(x));
+        EndBody.
+        

@@ -1,0 +1,13 @@
+
+        Function: getRectangularPrismVolume
+        Parameter: w, h, l
+        Body:
+            Return w *. h *. l;
+        EndBody.
+        Function: main
+        Body:
+            Var: w = 3.0, h = 4.0, l = 5.0, v = 0.0;
+            v = getRectangularPrismVolume(w,h,l);
+            print(string_of_float(v));
+        EndBody.
+        

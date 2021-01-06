@@ -1,0 +1,11 @@
+
+        Function: getFloatMyself
+        Parameter: n
+        Body:
+            Return n +. 0.0;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_float(getFloatMyself(5.0)));
+        EndBody.
+        

@@ -1,0 +1,23 @@
+
+        Function: gcd
+        Parameter: x, y
+        Body:
+            Var: z = 0;
+            If x > y Then
+                z = x \ 2;
+            Else
+                z = y \ 2;
+            EndIf.
+            While z > 0 Do
+                If (x % z == 0) && (y % z == 0) Then
+                    Return z;
+                EndIf.
+                z = z - 1;
+            EndWhile.
+            Return 1;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_int(gcd(10,20)));
+        EndBody.
+        

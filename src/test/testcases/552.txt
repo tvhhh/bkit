@@ -1,0 +1,17 @@
+
+        Function: factorial
+        Parameter: n
+        Body:
+            Var: x = 1, i = 1;
+            For (i = 1, i <= n, 1) Do
+                x = x * i;
+            EndFor.
+            Return x;
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 10;
+            x = factorial(x);
+            print(string_of_int(x));
+        EndBody.
+        

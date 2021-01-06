@@ -1,0 +1,13 @@
+
+        Function: main
+        Body:
+            Var: x = 3, y = 4;
+            If x < y Then
+                print(string_of_int(x));
+                print(string_of_int(y));
+            Else
+                print(string_of_int(y));
+                print(string_of_int(x));
+            EndIf.
+        EndBody.
+        

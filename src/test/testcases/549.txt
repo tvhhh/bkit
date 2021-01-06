@@ -1,0 +1,11 @@
+
+        Function: isLeapYear
+        Parameter: y
+        Body:
+            Return y % 4 == 0;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_bool(isLeapYear(2021)));
+        EndBody.
+        

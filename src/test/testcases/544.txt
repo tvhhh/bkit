@@ -1,0 +1,19 @@
+
+        Var: x = 0, y = 0, z = 0;
+        Function: getX
+        Body:
+            Return x;
+        EndBody.
+        Function: getY
+        Body:
+            Return y;
+        EndBody.
+        Function: getZ
+        Body:
+            Return z;
+        EndBody.
+        Function: main
+        Body:
+            print(string_of_int(getX()+getY()+getZ()));
+        EndBody.
+        
